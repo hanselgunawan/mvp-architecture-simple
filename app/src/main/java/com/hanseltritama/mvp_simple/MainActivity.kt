@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(),
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         title = ""
         init()
-
+        
         presenter = AppPinPresenter(this)
         presenter.defaultSettings()
         mButton.setOnClickListener(object : OnClickListener() {
